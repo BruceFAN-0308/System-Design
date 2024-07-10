@@ -78,3 +78,15 @@ function Element(props){
 1. ## What is the difference between hooks and classes.
 
 ![img](https://f6wrt0e6n4.feishu.cn/space/api/box/stream/download/asynccode/?code=OTg5OTFhMGYyZjVkMjJiNzhjZjhhNzNlYmRlMDgzYmZfUzhLNjZSVGlYV3BoNnMwRjhVWnF6NFVGTUJFVThLZjNfVG9rZW46WTY0RmJlbnBab1o1d014a3daWmNRMHNmblNBXzE3MjA0MDM4Nzg6MTcyMDQwNzQ3OF9WNA)
+
+1. ## What is callback function?
+
+Callback function is usually as a param that passed to another function. When an event happens, the callback function will be called.
+
+As a props, from parents components to children components.
+
+As an event, such as onClick = {callback function}
+
+Handle the async, such as fetch the data.
+
+As a useEffect callback function.
